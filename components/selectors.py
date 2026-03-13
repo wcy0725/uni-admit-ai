@@ -23,8 +23,11 @@ def init_session_state() -> None:
         st.session_state.selected_batch = BatchType.EARLY
 
 
-def render_global_selectors() -> dict:
+def render_global_selectors(sidebar_mode: bool = False) -> dict:
     """渲染顶部共用选择器
+
+    Args:
+        sidebar_mode: 是否在侧边栏渲染（垂直布局）
 
     Returns:
         dict: {
@@ -52,10 +55,8 @@ def render_global_selectors() -> dict:
     if st.session_state.selected_province is None:
         st.session_state.selected_province = provinces[0]
 
-    # 使用水平布局
-    col1, col2, col3, col4 = st.columns(4)
-
-    with col1:
+    if sidebar_mode:
+        # 侧边栏模式：垂直布局
         province = st.selectbox(
             "省份",
             options=provinces,
@@ -67,9 +68,8 @@ def render_global_selectors() -> dict:
         )
         st.session_state.selected_province = province
 
-    # 获取该省份可用年份
-    years = get_available_years(province)
-    with col2:
+        # 获取该省份可用年份
+        years = get_available_years(province)
         if years:
             year = st.selectbox(
                 "年份",
@@ -90,9 +90,8 @@ def render_global_selectors() -> dict:
                 key="year_selector_disabled",
             )
 
-    # 获取该省份年份可用批次
-    batches = get_available_batches(province, year) if year else []
-    with col3:
+        # 获取该省份年份可用批次
+        batches = get_available_batches(province, year) if year else []
         subject = st.segmented_control(
             "科目",
             options=[SubjectType.PHYSICS, SubjectType.HISTORY],
@@ -104,7 +103,6 @@ def render_global_selectors() -> dict:
         )
         st.session_state.selected_subject = subject
 
-    with col4:
         if batches:
             batch = st.selectbox(
                 "批次",
@@ -125,6 +123,80 @@ def render_global_selectors() -> dict:
                 disabled=True,
                 key="batch_selector_disabled",
             )
+    else:
+        # 主区域模式：水平布局
+        col1, col2, col3, col4 = st.columns(4)
+
+        with col1:
+            province = st.selectbox(
+                "省份",
+                options=provinces,
+                index=provinces.index(st.session_state.selected_province)
+                if st.session_state.selected_province in provinces
+                else 0,
+                key="province_selector",
+                help="选择省份",
+            )
+            st.session_state.selected_province = province
+
+        # 获取该省份可用年份
+        years = get_available_years(province)
+        with col2:
+            if years:
+                year = st.selectbox(
+                    "年份",
+                    options=years,
+                    index=years.index(st.session_state.selected_year)
+                    if st.session_state.selected_year in years
+                    else 0,
+                    key="year_selector",
+                    help="选择年份",
+                )
+                st.session_state.selected_year = year
+            else:
+                year = None
+                st.selectbox(
+                    "年份",
+                    options=["无数据"],
+                    disabled=True,
+                    key="year_selector_disabled",
+                )
+
+        # 获取该省份年份可用批次
+        batches = get_available_batches(province, year) if year else []
+        with col3:
+            subject = st.segmented_control(
+                "科目",
+                options=[SubjectType.PHYSICS, SubjectType.HISTORY],
+                selection_mode="single",
+                default=st.session_state.selected_subject,
+                format_func=lambda x: x.display_name,
+                key="subject_selector",
+                help="选择科目类型",
+            )
+            st.session_state.selected_subject = subject
+
+        with col4:
+            if batches:
+                batch = st.selectbox(
+                    "批次",
+                    options=batches,
+                    index=batches.index(st.session_state.selected_batch)
+                    if st.session_state.selected_batch in batches
+                    else 0,
+                    format_func=lambda x: x.display_name,
+                    key="batch_selector",
+                    help="选择批次",
+                )
+                st.session_state.selected_batch = batch
+            else:
+                batch = BatchType.EARLY
+                st.selectbox(
+                    "批次",
+                    options=["无数据"],
+                    disabled=True,
+                    key="batch_selector_disabled",
+                )
 
     return {
         "province": province,

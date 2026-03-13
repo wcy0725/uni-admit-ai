@@ -38,25 +38,15 @@ def main() -> None:
             title="院校列表",
             icon=":material/format_list_bulleted:",
         ),
-        st.Page(
-            "app_pages/university_detail.py",
-            title="院校详情",
-            icon=":material/info:",
-        ),
     ]
 
-    # 创建导航（侧边栏）
-    page = st.navigation(pages, position="sidebar")
-
-    # 侧边栏标题
+    # 侧边栏导航和选择器
     with st.sidebar:
-        st.title("🎓 高考志愿填报助手")
-        st.divider()
+        # 创建导航（侧边栏）
+        page = st.navigation(pages, position="sidebar")
 
-    # 渲染全局选择器（在主区域顶部）
-    st.markdown("### 数据筛选")
-    render_global_selectors()
-    st.divider()
+        # 渲染全局选择器到侧边栏
+        render_global_selectors(sidebar_mode=True)
 
     # 运行当前页面
     page.run()

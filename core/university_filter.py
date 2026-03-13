@@ -62,11 +62,20 @@ def filter_universities_by_score(
 
     for university in universities:
         records = university.get_admission_records(category)
+        # 先计算院校的最低分（排除综合评价）
+        uni_min_score = None
         for record in records:
+            # 跳过综合评价录取
+            if "综合评价" in record.min_score:
+                continue
             score = parse_score(record.min_score)
-            if score and min_score <= score <= max_score:
-                result.append(university)
-                break  # 一所院校只添加一次
+            if score:
+                if uni_min_score is None or score < uni_min_score:
+                    uni_min_score = score
+
+        # 检查院校最低分是否在范围内
+        if uni_min_score and min_score <= uni_min_score <= max_score:
+            result.append(university)
 
     return result
 
@@ -135,6 +144,10 @@ def get_university_score_info(
     min_rank = None
 
     for record in records:
+        # 跳过综合评价录取
+        if "综合评价" in record.min_score:
+            continue
+
         score = parse_score(record.min_score)
         if score:
             if min_score is None or score < min_score:

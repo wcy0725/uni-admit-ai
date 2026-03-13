@@ -38,6 +38,11 @@ def main() -> None:
             title="院校列表",
             icon=":material/format_list_bulleted:",
         ),
+        st.Page(
+            "app_pages/comprehensive_evaluation.py",
+            title="综合评价",
+            icon=":material/stars:",
+        ),
     ]
 
     # 侧边栏导航和选择器

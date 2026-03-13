@@ -1,18 +1,16 @@
 """分数推荐院校页面
 
-根据分数范围筛选院校，支持模糊搜索。
+根据分数范围筛选院校。
 """
 
 import streamlit as st
 import pandas as pd
 
-from components.charts import create_score_distribution_chart, display_chart
 from components.selectors import get_current_selection
 from core.data_loader import load_admission_data
 from core.university_filter import (
     filter_universities_by_score,
     get_university_score_info,
-    search_universities,
     sort_universities_by_score,
 )
 from models.enums import SubjectType
@@ -41,11 +39,18 @@ def render() -> None:
     st.subheader("分数筛选与院校推荐")
 
     # 从其他页面跳转来的参数
-    nav_min = st.session_state.pop("nav_score_min", None)
-    nav_max = st.session_state.pop("nav_score_max", None)
+    nav_min = st.session_state.get("nav_score_min", None)
+    nav_max = st.session_state.get("nav_score_max", None)
 
-    # 分数范围输入
-    col1, col2, col3 = st.columns([1, 1, 2])
+    # 如果是从导航跳转来的，保存到 session_state 的固定 key 中
+    if nav_min is not None:
+        st.session_state.score_filter_min = int(nav_min)
+    if nav_max is not None:
+        st.session_state.score_filter_max = int(nav_max)
+
+    # 清除导航参数（只使用一次）
+    st.session_state.pop("nav_score_min", None)
+    st.session_state.pop("nav_score_max", None)
 
     # 获取分数范围
     category = subject.display_name
@@ -60,42 +65,44 @@ def render() -> None:
                 continue
 
     if all_scores:
-        default_min = min(all_scores) if nav_min is None else nav_min
-        default_max = max(all_scores) if nav_max is None else nav_max
+        global_min = min(all_scores)
+        global_max = max(all_scores)
     else:
-        default_min = 400
-        default_max = 700
+        global_min = 400
+        global_max = 700
 
+    # 分数范围输入
+    col1, col2 = st.columns(2)
+
+    # 使用传入的分数范围，如果没有传入则使用全局范围
     with col1:
+        default_min = st.session_state.get("score_filter_min", global_min)
         min_score = st.number_input(
             "最低分数",
             min_value=0,
             max_value=750,
             value=default_min,
             step=1,
+            key="min_score_input",
         )
+        # 更新 session_state
+        st.session_state.score_filter_min = min_score
 
     with col2:
+        default_max = st.session_state.get("score_filter_max", global_max)
         max_score = st.number_input(
             "最高分数",
             min_value=0,
             max_value=750,
             value=default_max,
             step=1,
+            key="max_score_input",
         )
-
-    with col3:
-        search_keyword = st.text_input(
-            "搜索院校",
-            placeholder="输入院校名称或代码搜索...",
-        )
+        # 更新 session_state
+        st.session_state.score_filter_max = max_score
 
     # 筛选逻辑
     filtered = filter_universities_by_score(universities, min_score, max_score, subject)
-
-    # 搜索
-    if search_keyword:
-        filtered = search_universities(filtered, search_keyword)
 
     # 排序（按分数降序）
     filtered = sort_universities_by_score(filtered, subject, ascending=False)
@@ -104,11 +111,6 @@ def render() -> None:
 
     # 显示统计
     st.write(f"共找到 **{len(filtered)}** 所符合条件的院校")
-
-    # 图表展示
-    if filtered:
-        fig = create_score_distribution_chart(filtered, subject, top_n=10)
-        display_chart(fig)
 
     st.divider()
 

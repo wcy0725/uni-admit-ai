@@ -1,0 +1,2549 @@
+[
+  {
+    "name": "北京大学",
+    "code": "0001",
+    "year": 2025,
+    "official_website": "https://www.pku.edu.cn",
+    "admission_phone": "",
+    "email": "its@pku.edu.cn",
+    "introduction": "北京大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0001",
+          "category": "历史类",
+          "min_score": "662",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "27"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "北京电子科技学院",
+    "code": "P018",
+    "year": 2025,
+    "official_website": "https://www.besti.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "index",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "P018",
+          "category": "历史类",
+          "min_score": "634",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "426"
+        },
+        {
+          "code": "0018",
+          "category": "物理类",
+          "min_score": "631",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5474"
+        },
+        {
+          "code": "P018",
+          "category": "物理类",
+          "min_score": "658",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1583"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "北京师范大学",
+    "code": "0027",
+    "year": 2025,
+    "official_website": "https://www.bnu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0027",
+          "category": "历史类",
+          "min_score": "620",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "915"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "北京外国语大学",
+    "code": "0030",
+    "year": 2025,
+    "official_website": "https://www.bfsu.edu.cn",
+    "admission_phone": "010-88816200",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0030",
+          "category": "历史类",
+          "min_score": "综合评价成绩613.8",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        },
+        {
+          "code": "0030",
+          "category": "物理类",
+          "min_score": "综合评价成绩622.4",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "北京语言大学",
+    "code": "0032",
+    "year": 2025,
+    "official_website": "https://www.blcu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "北京语言大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0032",
+          "category": "历史类",
+          "min_score": "584",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "3282"
+        },
+        {
+          "code": "0032",
+          "category": "物理类",
+          "min_score": "578",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "21329"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "东北大学",
+    "code": "0145",
+    "year": 2025,
+    "official_website": "https://www.neu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0145",
+          "category": "历史类",
+          "min_score": "综合评价成绩769.67",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        },
+        {
+          "code": "0145",
+          "category": "物理类",
+          "min_score": "综合评价成绩甲类755.33\n综合评价成绩乙类778.00",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "东北师范大学",
+    "code": "0200",
+    "year": 2025,
+    "official_website": "https://www.nenu.edu.cn",
+    "admission_phone": "",
+    "email": "dsxxw@nenu.edu.cn",
+    "introduction": "3月4日、5日，全国政协十四届四次会议、十四届全国人大四次会议在北京开幕。全国人大代表，东北师范大学校长助理、附属中学校长邵志豪围绕基础教育改革发展的多项建议，得到了多家中央及省级权威媒体的高度关注与报道。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0200",
+          "category": "历史类",
+          "min_score": "609",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1485"
+        },
+        {
+          "code": "0200",
+          "category": "物理类",
+          "min_score": "617",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "8681"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "复旦大学",
+    "code": "0246",
+    "year": 2025,
+    "official_website": "https://www.fudan.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "复旦大学（Fudan University），简称“复旦”，位于中国上海，由中华人民共和国教育部直属，中央直管副部级建制，国家双一流（A类）、985工程、211工程建设高校，入选珠峰计划、111计划、2011计划、卓越医生教育培养计划、卓越法律人才教育培养计划、国家建设高水平大学公派研究生项目，九校联盟（C9）、中国大学校长联谊会、东亚研究型大学协会、环太平洋大学协会的重要成员，是一所世界知名、国内顶尖的全国重点大学。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0246",
+          "category": "历史类",
+          "min_score": "652",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "87"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "国防科技大学",
+    "code": "J002",
+    "year": 2025,
+    "official_website": "https://www.nudt.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J002",
+          "category": "历史类",
+          "min_score": "618",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1011"
+        },
+        {
+          "code": "JV02",
+          "category": "历史类",
+          "min_score": "640",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "262"
+        },
+        {
+          "code": "J002",
+          "category": "物理类",
+          "min_score": "543",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "35977"
+        },
+        {
+          "code": "JV02",
+          "category": "物理类",
+          "min_score": "642",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "3545"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "国际关系学院",
+    "code": "0042",
+    "year": 2025,
+    "official_website": "https://www.uir.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "青年服务国家 | 青岩乡村实践队引言习近平总书记曾经指出：“扶贫必扶智。让贫困地区的孩子们接受良好教育，是扶贫开发的重要任务，也是阻断贫困代际传递的重要途径。”2025年7月13日，国际关系学院青岩乡村实践队一行13人抵达河北省邢台市临西县老官寨镇仁庄村，开展为期12天的青年服务国家“青砺基层”提升基层治理效能项目。此次活动中，队员们深入临西县育才小学，通过特色课程以及国家安全教育，丰富了乡村小学暑期素质拓展教育的相关内容，...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0042",
+          "category": "历史类",
+          "min_score": "604",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1768"
+        },
+        {
+          "code": "P042",
+          "category": "历史类",
+          "min_score": "601",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1962"
+        },
+        {
+          "code": "0042",
+          "category": "物理类",
+          "min_score": "598",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "14257"
+        },
+        {
+          "code": "P042",
+          "category": "物理类",
+          "min_score": "599",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "13937"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "黑龙江大学",
+    "code": "0212",
+    "year": 2025,
+    "official_website": "https://www.hlju.edu.cn",
+    "admission_phone": "",
+    "email": "HLJU@hlju.edu.cn",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0212",
+          "category": "历史类",
+          "min_score": "523",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "11024"
+        },
+        {
+          "code": "0212",
+          "category": "物理类",
+          "min_score": "506",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "53584"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "华中师范大学",
+    "code": "0511",
+    "year": 2025,
+    "official_website": "https://www.ccnu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0511",
+          "category": "历史类",
+          "min_score": "610",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1438"
+        },
+        {
+          "code": "0511",
+          "category": "物理类",
+          "min_score": "591",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "16621"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "吉林大学",
+    "code": "0183",
+    "year": 2025,
+    "official_website": "https://www.jlu.edu.cn",
+    "admission_phone": "",
+    "email": "zygl@jlu.edu.cn版权所有",
+    "introduction": "地址：吉林省长春市前进大街2699号信息管理和技术维护：吉林大学大数据和网络管理中心管理员信箱：zygl@jlu.edu.cn版权所有 2015 吉林大学吉ICP备06002985号-1吉公网安备 22017302000045号",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0183",
+          "category": "历史类",
+          "min_score": "627",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "631"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "江西师范大学",
+    "code": "0414",
+    "year": 2025,
+    "official_website": "https://www.jxnu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "江西师范大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0414",
+          "category": "历史类",
+          "min_score": "579",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "3713"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "昆山杜克大学",
+    "code": "6406",
+    "year": 2025,
+    "official_website": "https://www.dukekunshan.edu.cn/zh-hans/",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "Discover inspiring learning experience in China and explore the Duke's experiential learning programs.",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "6406",
+          "category": "历史类",
+          "min_score": "综合评价成绩75.769",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        },
+        {
+          "code": "6406",
+          "category": "物理类",
+          "min_score": "综合评价成绩78.662",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "辽宁警察学院",
+    "code": "1432",
+    "year": 2025,
+    "official_website": "https://www.lnp.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1432",
+          "category": "历史类",
+          "min_score": "532",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "9530"
+        },
+        {
+          "code": "P432",
+          "category": "历史类",
+          "min_score": "612",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1322"
+        },
+        {
+          "code": "R432",
+          "category": "历史类",
+          "min_score": "441",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "26054"
+        },
+        {
+          "code": "1432",
+          "category": "物理类",
+          "min_score": "536",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "39226"
+        },
+        {
+          "code": "P432",
+          "category": "物理类",
+          "min_score": "605",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "12013"
+        },
+        {
+          "code": "Q432",
+          "category": "物理类",
+          "min_score": "547",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "34117"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "陆军步兵学院",
+    "code": "J006",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J006",
+          "category": "历史类",
+          "min_score": "606",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1643"
+        },
+        {
+          "code": "J006",
+          "category": "物理类",
+          "min_score": "545",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "35036"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "南京大学",
+    "code": "0284",
+    "year": 2025,
+    "official_website": "https://www.nju.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0284",
+          "category": "历史类",
+          "min_score": "638",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "321"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "清华大学",
+    "code": "0003",
+    "year": 2025,
+    "official_website": "https://www.tsinghua.edu.cn",
+    "admission_phone": "",
+    "email": "webmaster@tsinghua.edu.cn",
+    "introduction": "由清华大学党委宣传部、新闻中心主办的“清华大学2025年十大新闻评选”活动日前结束，“扎实开展深入贯彻中央八项规定精神学习教育，全面学习贯彻党的二十届四中全会精神，以高质量党建引领高质量发展再上新台阶”等10条新闻入选“清华大学2025年十大新闻”。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0003",
+          "category": "历史类",
+          "min_score": "659",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "40"
+        },
+        {
+          "code": "0003",
+          "category": "物理类",
+          "min_score": "683",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "262"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "陕西师范大学",
+    "code": "0718",
+    "year": 2025,
+    "official_website": "https://www.snnu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0718",
+          "category": "历史类",
+          "min_score": "584",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "3282"
+        },
+        {
+          "code": "0718",
+          "category": "物理类",
+          "min_score": "609",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "10891"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "上海海关学院",
+    "code": "0274",
+    "year": 2025,
+    "official_website": "https://www.shcc.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "上海海关学院",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0274",
+          "category": "历史类",
+          "min_score": "623",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "781"
+        },
+        {
+          "code": "P274",
+          "category": "历史类",
+          "min_score": "636",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "371"
+        },
+        {
+          "code": "0274",
+          "category": "物理类",
+          "min_score": "632",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5294"
+        },
+        {
+          "code": "P274",
+          "category": "物理类",
+          "min_score": "650",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2480"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "上海外国语大学",
+    "code": "0271",
+    "year": 2025,
+    "official_website": "https://www.shisu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "上海外国语大学是中国著名的高等外语学府，秉承“格高志远、学贯中外”的校训精神和“诠释世界、成就未来”的办学理念，致力于建成国别区域全球知识领域特色鲜明的世界一流外国语大学。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0271",
+          "category": "历史类",
+          "min_score": "597",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2246"
+        },
+        {
+          "code": "0271",
+          "category": "物理类",
+          "min_score": "594",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "15545"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "深圳北理莫斯科大学",
+    "code": "6409",
+    "year": 2025,
+    "official_website": "https://www.smbu.edu.cn",
+    "admission_phone": "",
+    "email": "info@smbu.edu.cn",
+    "introduction": "3月4日、5日，全国政协十四届四次会议和十四届全国人大四次会议相继在北京开幕。深圳北理莫斯科大学师生通过多渠道实时关注两会动态、学习两会精神，认真学习政府工作报告，并结合学校发展、个人成长实际，畅谈感想体会。校长、党委副书记 李和章2026年全国两会，是在“十四五”圆满收官、“十五五”扬帆启航的关键历史节点召开的一次盛会。李强总理所作的政府工作报告，系统回顾了过去一年及“十四五”时期我国发展取得的重大成就，...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "6409",
+          "category": "历史类",
+          "min_score": "综合评价成绩594.45",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        },
+        {
+          "code": "6409",
+          "category": "物理类",
+          "min_score": "综合评价成绩587.1",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "四川外国语大学",
+    "code": "0650",
+    "year": 2025,
+    "official_website": "https://www.sisu.edu.cn",
+    "admission_phone": "023-65385238",
+    "email": "",
+    "introduction": "四川外国语大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0650",
+          "category": "历史类",
+          "min_score": "556",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "6235"
+        },
+        {
+          "code": "0650",
+          "category": "物理类",
+          "min_score": "539",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "37781"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "外交学院",
+    "code": "0040",
+    "year": 2025,
+    "official_website": "https://www.cfau.edu.cn/",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0040",
+          "category": "历史类",
+          "min_score": "614",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1205"
+        },
+        {
+          "code": "0040",
+          "category": "物理类",
+          "min_score": "613",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "9728"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "武汉大学",
+    "code": "0486",
+    "year": 2025,
+    "official_website": "https://www.whu.edu.cn",
+    "admission_phone": "027-68752059",
+    "email": "",
+    "introduction": "新闻网讯（通讯员高妍）近日，国际物理学期刊《物理评论快报》（PhysicalReviewLetters）在线发表武汉大学高等研究院教授徐楠课题组联合中国科学院物理研究所研究员孟胜团队的最新研究成果。该研究聚焦半导体中准稳态暗激子…",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0486",
+          "category": "历史类",
+          "min_score": "638",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "321"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "西南大学",
+    "code": "0635",
+    "year": 2025,
+    "official_website": "https://www.swu.edu.cn",
+    "admission_phone": "96333626029",
+    "email": "president@swu.edu.cn",
+    "introduction": "西南大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0635",
+          "category": "历史类",
+          "min_score": "612",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1322"
+        },
+        {
+          "code": "0635",
+          "category": "物理类",
+          "min_score": "604",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "12332"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "西南政法大学",
+    "code": "0652",
+    "year": 2025,
+    "official_website": "https://www.swupl.edu.cn",
+    "admission_phone": "023-67258207",
+    "email": "",
+    "introduction": "西南政法大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0652",
+          "category": "历史类",
+          "min_score": "548",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "7269"
+        },
+        {
+          "code": "0652",
+          "category": "物理类",
+          "min_score": "555",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "30555"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "香港城市大学",
+    "code": "X006",
+    "year": 2025,
+    "official_website": "https://www.cityu.edu.hk",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "X006",
+          "category": "历史类",
+          "min_score": "611",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1368"
+        },
+        {
+          "code": "X006",
+          "category": "物理类",
+          "min_score": "632",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5294"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "香港中文大学",
+    "code": "X002",
+    "year": 2025,
+    "official_website": "https://www.cuhk.edu.hk",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "X002",
+          "category": "历史类",
+          "min_score": "631",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "505"
+        },
+        {
+          "code": "X002",
+          "category": "物理类",
+          "min_score": "654",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2000"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "香港中文大学(深圳)",
+    "code": "6407",
+    "year": 2025,
+    "official_website": "https://www.cuhk.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "6407",
+          "category": "历史类",
+          "min_score": "628",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "601"
+        },
+        {
+          "code": "6407",
+          "category": "物理类",
+          "min_score": "651",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2356"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "新疆师范大学",
+    "code": "0762",
+    "year": 2025,
+    "official_website": "https://www.xjnu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "新疆师范大学是新疆维吾尔自治区重点建设的师范院校，1978年12月经教育部批准设立，是党的十一届三中全会之后我国第一批新设立的高校之一。学校前身是乌鲁木齐第一师范学校和新疆教师培训部，办学历史可追溯到1906年成立的新疆省立初级师范学堂。  学校始终坚持社会主义办学方向，全面贯彻党的教育方针，落实立德树人根本任务，将社会主义核心价值观融入教育教学全过程；学校秉承“博学笃行，为人师表”的校训，始终以“为党育人，为国育才”...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0762",
+          "category": "历史类",
+          "min_score": "559",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5861"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "云南警官学院",
+    "code": "1392",
+    "year": 2025,
+    "official_website": "https://www.ynpc.edu.cn",
+    "admission_phone": "0871-65127239",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1392",
+          "category": "历史类",
+          "min_score": "534",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "9243"
+        },
+        {
+          "code": "P392",
+          "category": "历史类",
+          "min_score": "599",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2100"
+        },
+        {
+          "code": "1392",
+          "category": "物理类",
+          "min_score": "556",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "30118"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "浙江大学",
+    "code": "0335",
+    "year": 2025,
+    "official_website": "https://www.zju.edu.cn",
+    "admission_phone": "0571-87951111",
+    "email": "",
+    "introduction": "浙江大学（Zhejiang University），简称“浙大”，位于浙江省杭州市，是中华人民共和国教育部直属的综合性全国重点大学，位列国家“双一流”、“211工程”、“985工程”，是九校联盟（C9）、中国大学校长联谊会、环太平洋大学联盟...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0335",
+          "category": "历史类",
+          "min_score": "639",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "291"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "浙江警察学院",
+    "code": "1483",
+    "year": 2025,
+    "official_website": "https://www.zjjcxy.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1483",
+          "category": "历史类",
+          "min_score": "543",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "7989"
+        },
+        {
+          "code": "P483",
+          "category": "历史类",
+          "min_score": "606",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1643"
+        },
+        {
+          "code": "1483",
+          "category": "物理类",
+          "min_score": "565",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "26382"
+        },
+        {
+          "code": "P483",
+          "category": "物理类",
+          "min_score": "603",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "12662"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "郑州警察学院",
+    "code": "2735",
+    "year": 2025,
+    "official_website": "http://www.rpc.edu.cn",
+    "admission_phone": "0371-60666000",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "2735",
+          "category": "历史类",
+          "min_score": "544",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "7846"
+        },
+        {
+          "code": "P735",
+          "category": "历史类",
+          "min_score": "601",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1962"
+        },
+        {
+          "code": "2735",
+          "category": "物理类",
+          "min_score": "560",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "28407"
+        },
+        {
+          "code": "P735",
+          "category": "物理类",
+          "min_score": "606",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "11742"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国传媒大学",
+    "code": "0033",
+    "year": 2025,
+    "official_website": "https://www.cuc.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "中国传媒大学是教育部直属的“双一流”建设高校，位于北京古运河畔，享有显著的区位优势。学校自1954年创建以来，一直以培养优秀传媒人才为己任，被誉为“中国广播电视及传媒人才摇篮”。进入新时代，学校进行战略性综合布局，以“三质量”提升为统领，实施“五个一流”教育质量提升工程，全面提升办学水平。学校秉持“上手快、筋骨壮、后劲足”的特色育人模式，传承弘扬“忠诚、自信、包容、竞先”的文化基因，培养了大量应对未来媒体挑战、驰骋国际舞台的传媒人才，为传媒事业和经济社会发展作出重要贡献。学校面貌焕然一新，师生风貌也展现出新的气象，展现出强大的发展潜力和活力。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0033",
+          "category": "历史类",
+          "min_score": "596",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2319"
+        },
+        {
+          "code": "0033",
+          "category": "物理类",
+          "min_score": "592",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "16282"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国海洋大学",
+    "code": "0423",
+    "year": 2025,
+    "official_website": "https://www.ouc.edu.cn",
+    "admission_phone": "532-66781952",
+    "email": "news@ouc.edu.cn",
+    "introduction": "主站",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0423",
+          "category": "历史类",
+          "min_score": "582",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "3450"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国人民大学",
+    "code": "0002",
+    "year": 2025,
+    "official_website": "https://www.ruc.edu.cn",
+    "admission_phone": "",
+    "email": "sjxx@ruc.edu.cn",
+    "introduction": "中国人民大学是中国共产党创办的第一所新型正规大学，前身是1937年诞生于抗日战争烽火中的陕北公学，以及后来的华北联合大学和北方大学、华北大学，在长期的办学实践中，注重人文社会科学高等教育和马克思主义教学与研究，被誉为“我国人文社会科学高等教育领域的一面旗帜”。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0002",
+          "category": "历史类",
+          "min_score": "639",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "291"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国人民大学(苏州校区)",
+    "code": "9002",
+    "year": 2025,
+    "official_website": "https://www.ruc.edu.cn",
+    "admission_phone": "",
+    "email": "sjxx@ruc.edu.cn",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "9002",
+          "category": "历史类",
+          "min_score": "624",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "747"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国人民公安大学",
+    "code": "0041",
+    "year": 2025,
+    "official_website": "https://www.ppsuc.edu.cn",
+    "admission_phone": "",
+    "email": "gadx@ppsuc.edu.cn",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0041",
+          "category": "历史类",
+          "min_score": "474",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "19628"
+        },
+        {
+          "code": "P041",
+          "category": "历史类",
+          "min_score": "522",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "11183"
+        },
+        {
+          "code": "0041",
+          "category": "物理类",
+          "min_score": "590",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "16970"
+        },
+        {
+          "code": "P041",
+          "category": "物理类",
+          "min_score": "583",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "19435"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国人民警察大学",
+    "code": "1105",
+    "year": 2025,
+    "official_website": "https://www.cppu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1105",
+          "category": "历史类",
+          "min_score": "529",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "10001"
+        },
+        {
+          "code": "P105",
+          "category": "历史类",
+          "min_score": "608",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1528"
+        },
+        {
+          "code": "1105",
+          "category": "物理类",
+          "min_score": "517",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "48193"
+        },
+        {
+          "code": "P105",
+          "category": "物理类",
+          "min_score": "625",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "6708"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国消防救援学院",
+    "code": "0039",
+    "year": 2025,
+    "official_website": "https://www.cfri.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "中国消防救援学院",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0039",
+          "category": "历史类",
+          "min_score": "570",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "4616"
+        },
+        {
+          "code": "0039",
+          "category": "物理类",
+          "min_score": "558",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "29258"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国刑事警察学院",
+    "code": "0175",
+    "year": 2025,
+    "official_website": "https://www.cipuc.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "中国刑事警察学院主页，主要栏目有：学院概况、教学系部、师资队伍、教育教学、科学研究、招生就业、图书馆、校园文化等。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0175",
+          "category": "历史类",
+          "min_score": "456",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "23060"
+        },
+        {
+          "code": "P175",
+          "category": "历史类",
+          "min_score": "610",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "1438"
+        },
+        {
+          "code": "0175",
+          "category": "物理类",
+          "min_score": "543",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "35977"
+        },
+        {
+          "code": "P175",
+          "category": "物理类",
+          "min_score": "631",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5474"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中央司法警官学院",
+    "code": "1903",
+    "year": 2025,
+    "official_website": "https://www.cicp.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1903",
+          "category": "历史类",
+          "min_score": "526",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "10499"
+        },
+        {
+          "code": "P903",
+          "category": "历史类",
+          "min_score": "595",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2387"
+        },
+        {
+          "code": "1903",
+          "category": "物理类",
+          "min_score": "566",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "25973"
+        },
+        {
+          "code": "P903",
+          "category": "物理类",
+          "min_score": "598",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "14257"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "北部湾大学",
+    "code": "1607",
+    "year": 2025,
+    "official_website": "https://www.bbgu.edu.cn",
+    "admission_phone": "",
+    "email": "dwsj@bbgu.edu.cn",
+    "introduction": "3月4日和3月5日，全国政协十四届四次会议和十四届全国人大四次会议分别在北京开幕。北部湾大学师生通过多种渠道，积极关注全国两会，了解两会动态，学习两会精神，并结合自身工作学习和生活实际，热议全国两会。党委书记、校长 苗剑2026年全国两会是“十五五”开局之年召开的一次极为重要的会议，对党和国家事业发展意义重大。北部湾大学因海而生、向海而兴，锚定广西向海图强的战略部署，将“海洋性、应用型、国际化”的办学特色融入发展血脉。...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1607",
+          "category": "物理类",
+          "min_score": "450",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "81785"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "北京航空航天大学",
+    "code": "0006",
+    "year": 2025,
+    "official_website": "https://www.buaa.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "他是边疆基层的干部，也是乡亲口中的“好巴郎”。他把抉择刻进人生的方向，把校训融进铿锵的脚步，把责任筑进堤坝的每一道防线，把担当冲向震后十分钟的集结，把温度浸润进群众的柴米油盐。他将“到祖国最需要的地方去”的信念，挥洒成九载扎根边疆的青春岁月，荣获2024-2025年度“高校毕业生基层就业卓越奖学（教）金”，他就是宇航学院2012级本科毕业生张本霄。张本霄，中共党员，1993年出生，2016年毕业于北京航空航天大学。...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0006",
+          "category": "物理类",
+          "min_score": "598",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "14257"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "渤海大学",
+    "code": "0167",
+    "year": 2025,
+    "official_website": "https://www.bhu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0167",
+          "category": "物理类",
+          "min_score": "455",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "79305"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "大连海事大学",
+    "code": "0151",
+    "year": 2025,
+    "official_website": "https://www.dlmu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "在全球海洋竞争日趋激烈的今天，挺进深海、探索极地，已成为衡量大国科技硬实力的关键标尺。在加快建设交通强国、海洋强国的战略引领下，大连海事大学凭借其在海洋科技领域的深厚积淀和卓越实力，以“硬核技术”和“前瞻理论”双轮驱动，成功研制应用全球首套全海深痕量金属CTD（温盐深仪）绞车系统，构建深海工程大科学体系理论框架，为深海战略实施提供了系统性支撑，在深蓝疆域刻下了鲜明的“海大印记”。国产绞车系统填补技术空白深海、...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0151",
+          "category": "物理类",
+          "min_score": "585",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "18711"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "大连海洋大学",
+    "code": "0158",
+    "year": 2025,
+    "official_website": "https://www.dlou.edu.cn",
+    "admission_phone": "0411-84763156",
+    "email": "",
+    "introduction": "大连海洋大学（Dalian Ocean University ）简称“大海大”，是国家海洋局与辽宁省人民政府共同建设高校。国家首批卓越农林人才教育培养计划改革试点高校，学校原为农业部直属的四所水产类高等院校之一，是中国北方地区唯一的一所以海洋和水产学科为特色，工、农、理、管、文、法、经、艺等学科协调发展的多科性高等院校。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0158",
+          "category": "物理类",
+          "min_score": "470",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "71586"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "广东海洋大学",
+    "code": "0566",
+    "year": 2025,
+    "official_website": "https://www.gdou.edu.cn",
+    "admission_phone": "0759-2383111",
+    "email": "xzb@gdou.edu.cn",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0566",
+          "category": "物理类",
+          "min_score": "451",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "81282"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "广州航海学院",
+    "code": "1106",
+    "year": 2025,
+    "official_website": "https://www.gzmtu.edu.cn",
+    "admission_phone": "020-32083010",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1106",
+          "category": "物理类",
+          "min_score": "510",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "51658"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "海军大连舰艇学院",
+    "code": "J014",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J014",
+          "category": "物理类",
+          "min_score": "586",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "18370"
+        },
+        {
+          "code": "JV14",
+          "category": "物理类",
+          "min_score": "624",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "6942"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "海军工程大学",
+    "code": "J013",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J013",
+          "category": "物理类",
+          "min_score": "542",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "36421"
+        },
+        {
+          "code": "JV13",
+          "category": "物理类",
+          "min_score": "634",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "4913"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "海军航空大学",
+    "code": "J016",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J016",
+          "category": "物理类",
+          "min_score": "594",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "15545"
+        },
+        {
+          "code": "JV16",
+          "category": "物理类",
+          "min_score": "604",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "12332"
+        },
+        {
+          "code": "JX16",
+          "category": "物理类",
+          "min_score": "554",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "31013"
+        },
+        {
+          "code": "JY16",
+          "category": "物理类",
+          "min_score": "517",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "48193"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "海军军医大学",
+    "code": "J017",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J017",
+          "category": "物理类",
+          "min_score": "595",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "15246"
+        },
+        {
+          "code": "JV17",
+          "category": "物理类",
+          "min_score": "630",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5670"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "海军潜艇学院",
+    "code": "J015",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J015",
+          "category": "物理类",
+          "min_score": "591",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "16621"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "海南科技职业大学",
+    "code": "4172",
+    "year": 2025,
+    "official_website": "https://zsb.hnkjedu.cn/",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "4172",
+          "category": "物理类",
+          "min_score": "380",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "113164"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "海南热带海洋学院",
+    "code": "1100",
+    "year": 2025,
+    "official_website": "https://www.hntou.edu.cn/",
+    "admission_phone": "14523830748",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1100",
+          "category": "物理类",
+          "min_score": "453",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "80263"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "河西学院",
+    "code": "0740",
+    "year": 2025,
+    "official_website": "https://zsw.hxu.edu.cn/",
+    "admission_phone": "0936-8283598",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0740",
+          "category": "物理类",
+          "min_score": "463",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "75207"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "火箭军工程大学",
+    "code": "J031",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J031",
+          "category": "物理类",
+          "min_score": "593",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "15902"
+        },
+        {
+          "code": "JV31",
+          "category": "物理类",
+          "min_score": "551",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "32304"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "集美大学",
+    "code": "0390",
+    "year": 2025,
+    "official_website": "https://www.jmu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0390",
+          "category": "物理类",
+          "min_score": "545",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "35036"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "集美大学诚毅学院",
+    "code": "3471",
+    "year": 2025,
+    "official_website": "https://chengyi.jmu.edu.cn/",
+    "admission_phone": "0592-6183333",
+    "email": "chengyi@jmu.edu.cn",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "3471",
+          "category": "物理类",
+          "min_score": "386",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "110845"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "军事航天部队航天工程大学",
+    "code": "J033",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）    航天工程大学",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J033",
+          "category": "物理类",
+          "min_score": "603",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "12662"
+        },
+        {
+          "code": "JV33",
+          "category": "物理类",
+          "min_score": "632",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5294"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "空军工程大学",
+    "code": "J022",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J022",
+          "category": "物理类",
+          "min_score": "604",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "12332"
+        },
+        {
+          "code": "JV22",
+          "category": "物理类",
+          "min_score": "629",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5882"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "空军航空大学",
+    "code": "J021",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J021",
+          "category": "物理类",
+          "min_score": "586",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "18370"
+        },
+        {
+          "code": "JV21",
+          "category": "物理类",
+          "min_score": "596",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "14920"
+        },
+        {
+          "code": "JX21",
+          "category": "物理类",
+          "min_score": "545",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "35036"
+        },
+        {
+          "code": "JZ21",
+          "category": "物理类",
+          "min_score": "515",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "49156"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "空军军医大学",
+    "code": "J027",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J027",
+          "category": "物理类",
+          "min_score": "570",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "24393"
+        },
+        {
+          "code": "JV27",
+          "category": "物理类",
+          "min_score": "631",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5474"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "空军预警学院",
+    "code": "J023",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J023",
+          "category": "物理类",
+          "min_score": "588",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "17653"
+        },
+        {
+          "code": "JV23",
+          "category": "物理类",
+          "min_score": "608",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "11166"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "联勤保障部队工程大学",
+    "code": "J036",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J036",
+          "category": "物理类",
+          "min_score": "589",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "17304"
+        },
+        {
+          "code": "JV36",
+          "category": "物理类",
+          "min_score": "618",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "8439"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "陆军兵种大学",
+    "code": "J005",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J005",
+          "category": "物理类",
+          "min_score": "579",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "20928"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "陆军防化学院",
+    "code": "J010",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J010",
+          "category": "物理类",
+          "min_score": "579",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "20928"
+        },
+        {
+          "code": "JV10",
+          "category": "物理类",
+          "min_score": "591",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "16621"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "陆军工程大学",
+    "code": "J004",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J004",
+          "category": "物理类",
+          "min_score": "555",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "30555"
+        },
+        {
+          "code": "JV04",
+          "category": "物理类",
+          "min_score": "620",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "7935"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "陆军军医大学",
+    "code": "J011",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J011",
+          "category": "物理类",
+          "min_score": "575",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "22456"
+        },
+        {
+          "code": "JV11",
+          "category": "物理类",
+          "min_score": "606",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "11742"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "南方科技大学",
+    "code": "4325",
+    "year": 2025,
+    "official_website": "https://www.sustech.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "南方科技大学（简称南科大）是深圳在中国高等教育改革发展的宏观背景下，创建的一所高起点、高定位的公办创新型大学，南方科技大学肩负着为我国高等教育改革发挥先导和示范作用的使命，并致力于服务创新型国家建设和深圳创新型城市建设。",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "4325",
+          "category": "物理类",
+          "min_score": "综合评价成绩83.835",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "山东交通学院",
+    "code": "1510",
+    "year": 2025,
+    "official_website": "https://www.sdjtu.edu.cn/",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1510",
+          "category": "物理类",
+          "min_score": "469",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "72088"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "上海海事大学",
+    "code": "0254",
+    "year": 2025,
+    "official_website": "https://www.shmtu.edu.cn",
+    "admission_phone": "021-38282000",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0254",
+          "category": "物理类",
+          "min_score": "562",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "27602"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "上海科技大学",
+    "code": "4423",
+    "year": 2025,
+    "official_website": "https://www.shanghaitech.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "上海科技大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "4423",
+          "category": "物理类",
+          "min_score": "综合评价成绩654",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": ""
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "网络空间部队信息工程大学",
+    "code": "J034",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）  信息工程大学",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J034",
+          "category": "物理类",
+          "min_score": "605",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "12013"
+        },
+        {
+          "code": "JV34",
+          "category": "物理类",
+          "min_score": "632",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5294"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "武汉理工大学",
+    "code": "0497",
+    "year": 2025,
+    "official_website": "https://www.whut.edu.cn/",
+    "admission_phone": "",
+    "email": "webmaster@whut.edu.cn",
+    "introduction": "武汉理工大学",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0497",
+          "category": "物理类",
+          "min_score": "578",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "21329"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "武警工程大学",
+    "code": "J038",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J038",
+          "category": "物理类",
+          "min_score": "587",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "18006"
+        },
+        {
+          "code": "JV38",
+          "category": "物理类",
+          "min_score": "589",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "17304"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "武警警官学院",
+    "code": "J039",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J039",
+          "category": "物理类",
+          "min_score": "576",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "22057"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "香港科技大学(广州)",
+    "code": "6412",
+    "year": 2025,
+    "official_website": "https://www.hkust-gz.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "Innovation, adaptation, inclusivity, and originality – this set of beliefs has led the Hong Kong University of Science and Technology (HKUST) to make great strides progressively in education, research, and knowledge transfer since its establishment in 1991. In just three decades, HKUST has risen thr",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "6412",
+          "category": "物理类",
+          "min_score": "649",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "2609"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "信息支援部队工程大学",
+    "code": "J035",
+    "year": 2025,
+    "official_website": "（暂无公开独立官网）",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "J035",
+          "category": "物理类",
+          "min_score": "614",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "9443"
+        },
+        {
+          "code": "JV35",
+          "category": "物理类",
+          "min_score": "630",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "5670"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "烟台大学",
+    "code": "1066",
+    "year": 2025,
+    "official_website": "https://www.ytu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "1066",
+          "category": "物理类",
+          "min_score": "494",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "59521"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "浙江海洋大学",
+    "code": "0340",
+    "year": 2025,
+    "official_website": "https://www.zjou.edu.cn",
+    "admission_phone": "0580-2550008",
+    "email": "sj@zjou.edu.cn",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0340",
+          "category": "物理类",
+          "min_score": "519",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "47262"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "中国民用航空飞行学院",
+    "code": "0624",
+    "year": 2025,
+    "official_website": "https://www.cafuc.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "元宵佳节，全国人大代表、中国民用航空飞行学院总飞行师刘传健落地北京的当天，便如约接受了记者的采访。这是他第四年以人大代表的身份参加全国两会，谈及履职感受，他的话语朴实而坚定：“身上的担子更重了，这份重，是想着让民航发展的每一步，都能贴近老百姓的生活，让大家真正享受到行业发展带来的便捷。”如今的刘传健，依旧保持着每年200小时的飞行时长，坚守在民航第一线。作为深耕民航领域的资深飞行员，他的每一份建议，都来自对百姓出行需求的真切感知，源于对行业发展的深度思考。刘传健在执飞国际航线的...",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0624",
+          "category": "物理类",
+          "min_score": "568",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "25204"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  },
+  {
+    "name": "重庆交通大学",
+    "code": "0618",
+    "year": 2025,
+    "official_website": "https://www.cqjtu.edu.cn",
+    "admission_phone": "",
+    "email": "",
+    "introduction": "",
+    "admission_score": {
+      "year": 2025,
+      "liaoning": [
+        {
+          "code": "0618",
+          "category": "物理类",
+          "min_score": "525",
+          "batch": "2025年辽宁省普通高等学校招生录取普通类本科提前批录取最低分",
+          "rank": "44293"
+        }
+      ],
+      "source": "admission.json"
+    },
+    "status": "success"
+  }
+]

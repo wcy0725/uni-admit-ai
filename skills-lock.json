@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "dataverse-python-production-code": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "7299422fdb42dcede45a761921656a6450c476388731288a6e5afb0303f1d25d"
+    },
+    "developing-with-streamlit": {
+      "source": "streamlit/agent-skills",
+      "sourceType": "github",
+      "computedHash": "d366960761de1ec907dee42ddbdc08b9c868584cebc8c9fe8e0efdccb4bc5db7"
+    },
+    "pytest-coverage": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "06481f4bbc6d80a52091ec9ba5856eb1dc5f80cbabb40fd4ad02aaea3085a0dc"
+    }
+  }
+}

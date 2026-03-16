@@ -101,45 +101,38 @@ def render() -> None:
         # 更新 session_state
         st.session_state.score_filter_max = max_score
 
-    # 筛选逻辑
-    filtered = filter_universities_by_score(universities, min_score, max_score, subject)
+    # 筛选逻辑：最低分 <= max_score
+    filtered = filter_universities_by_score(universities, max_score, subject)
 
-    # 排序（按分数降序）
+    # 排序（按分数降序，高分在前）
     filtered = sort_universities_by_score(filtered, subject, ascending=False)
+
+    # 只取前10个
+    top_count = 10
+    filtered = filtered[:top_count]
 
     st.divider()
 
     # 显示统计
-    st.write(f"共找到 **{len(filtered)}** 所符合条件的院校")
+    st.write(f"共找到 **{len(filtered)}** 所符合条件的院校（显示前 {top_count} 所）")
 
     st.divider()
 
     # 院校列表
     if filtered:
-        # 分页
-        page_size = 15
-        total_pages = (len(filtered) + page_size - 1) // page_size
-
-        page = st.number_input(
-            "页码",
-            min_value=1,
-            max_value=total_pages,
-            value=1,
-            step=1,
-        )
-
-        start_idx = (page - 1) * page_size
-        end_idx = start_idx + page_size
-        page_data = filtered[start_idx:end_idx]
-
         # 准备表格数据
         table_data = []
-        for uni in page_data:
+        for uni in filtered:
             score_info = get_university_score_info(uni, subject)
+            score_val = score_info["min_score"] or 0
+            # 判断是否在分数范围内
+            in_range = min_score <= score_val <= max_score
             table_data.append(
                 {
                     "院校名称": uni.name,
                     "院校代码": uni.code,
+                    "_分数值": score_val,
+                    "_范围内": in_range,
                     "最低分数": score_info["min_score"] or "-",
                     "最低位次": score_info["min_rank"] or "-",
                 }
@@ -147,39 +140,46 @@ def render() -> None:
 
         df = pd.DataFrame(table_data)
 
-        # 显示表格
-        st.dataframe(
-            df,
+        # 找出在范围内的行索引
+        in_range_indices = df[df["_范围内"]].index.tolist()
+
+        # 显示用的 DataFrame
+        display_df = df[["院校名称", "院校代码", "最低分数", "最低位次"]].copy()
+
+        # 使用 Styler 为符合条件的行设置背景色
+        def highlight_in_range(row):
+            """为范围内的行设置绿色背景"""
+            idx = row.name  # 行索引
+            if idx in in_range_indices:
+                return ["background-color: #90EE90"] * len(row)
+            return [""] * len(row)
+
+        styled_df = display_df.style.apply(highlight_in_range, axis=1)
+
+        # 显示带选择功能的表格
+        event = st.dataframe(
+            styled_df,
             use_container_width=True,
             hide_index=True,
+            on_select="rerun",
+            selection_mode="single-row",
+            key="score_university_df",
+            height=35 + 35 * len(display_df),  # 表头35px + 每行35px
             column_config={
-                "院校名称": st.column_config.TextColumn("院校名称", width="large"),
+                "院校名称": st.column_config.TextColumn("院校名称"),
                 "院校代码": st.column_config.TextColumn("院校代码", width="small"),
                 "最低分数": st.column_config.TextColumn("最低分数", width="small"),
                 "最低位次": st.column_config.TextColumn("最低位次", width="small"),
             },
         )
 
-        st.divider()
-
-        # 跳转详情区域
-        st.markdown("### 查看院校详情")
-
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            selected_uni_name = st.selectbox(
-                "选择院校",
-                options=[uni.name for uni in page_data],
-                key="score_university_selector",
-                label_visibility="collapsed",
-            )
-        with col2:
-            if st.button("查看详情", type="primary", use_container_width=True):
-                for uni in page_data:
-                    if uni.name == selected_uni_name:
-                        st.session_state.detail_university_code = uni.code
-                        st.switch_page("app_pages/university_detail.py")
-                        break
+        # 获取选中的行，直接跳转
+        selected_indices = event.selection.rows if event and event.selection else []
+        if selected_indices:
+            idx = selected_indices[0]
+            selected_code = display_df.iloc[idx]["院校代码"]
+            st.session_state.detail_university_code = selected_code
+            st.switch_page("app_pages/university_detail.py")
 
     else:
         st.info("没有找到符合条件的院校，请调整筛选条件")

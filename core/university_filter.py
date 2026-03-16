@@ -42,16 +42,16 @@ def parse_score(score_str: str) -> Optional[int]:
 
 def filter_universities_by_score(
     universities: list[University],
-    min_score: int,
     max_score: int,
     subject_type: SubjectType,
 ) -> list[University]:
-    """按分数范围筛选院校
+    """按最高分数筛选院校
+
+    筛选最低分 <= max_score 的院校，用于冲保稳推荐。
 
     Args:
         universities: 院校列表
-        min_score: 最低分数
-        max_score: 最高分数
+        max_score: 最高分数（筛选院校最低分 <= 此值）
         subject_type: 科目类型
 
     Returns:
@@ -73,8 +73,8 @@ def filter_universities_by_score(
                 if uni_min_score is None or score < uni_min_score:
                     uni_min_score = score
 
-        # 检查院校最低分是否在范围内
-        if uni_min_score and min_score <= uni_min_score <= max_score:
+        # 检查院校最低分是否 <= max_score
+        if uni_min_score and uni_min_score <= max_score:
             result.append(university)
 
     return result

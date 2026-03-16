@@ -42,7 +42,7 @@ def render() -> None:
             "请输入位次",
             min_value=min_rank,
             max_value=max_rank,
-            value=min(1000, max_rank),
+            value=min(20000, max_rank),
             step=1,
             help=f"位次范围: {min_rank} - {max_rank}",
         )

@@ -169,8 +169,29 @@ def render() -> None:
 
     # 返回按钮
     st.divider()
-    if st.button("← 返回院校列表", type="secondary"):
-        st.switch_page("app_pages/university_list.py")
+
+    # 获取来源页面
+    source_page = st.session_state.get("detail_source_page", "university_list")
+
+    # 来源页面映射
+    page_map = {
+        "university_list": "app_pages/university_list.py",
+        "score_to_university": "app_pages/score_to_university.py",
+        "comprehensive_evaluation": "app_pages/comprehensive_evaluation.py",
+    }
+
+    # 来源页面名称映射
+    page_names = {
+        "university_list": "院校列表",
+        "score_to_university": "分数推荐院校",
+        "comprehensive_evaluation": "综合评价",
+    }
+
+    target_page = page_map.get(source_page, "app_pages/university_list.py")
+    target_name = page_names.get(source_page, "院校列表")
+
+    if st.button(f"← 返回{target_name}", type="secondary"):
+        st.switch_page(target_page)
 
 
 # 页面入口

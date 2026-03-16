@@ -112,6 +112,7 @@ def render() -> None:
         idx = selected_indices[0]
         selected_code = display_df.iloc[idx]["院校代码"]
         st.session_state.detail_university_code = selected_code
+        st.session_state.detail_source_page = "university_list"
         st.switch_page("app_pages/university_detail.py")
 
 

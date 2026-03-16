@@ -88,24 +88,44 @@ def render() -> None:
             lambda x: int(x) if x == int(x) else x
         )
 
-        # 删除原始分数列
-        df = df.drop("_score_raw", axis=1)
-
         st.write(f"共找到 **{len(comprehensive_data)}** 条综合评价录取记录")
 
         st.divider()
 
-        # 显示表格 - 使用数值类型列，让表格内置排序正确工作
-        st.dataframe(
-            df,
-            use_container_width=True,
-            hide_index=True,
-            column_config={
-                "院校名称": st.column_config.TextColumn("院校名称", width="large"),
-                "院校代码": st.column_config.TextColumn("院校代码", width="small"),
-                "综合评价成绩": st.column_config.NumberColumn("综合评价成绩", width="small"),
-            },
-        )
+        # 使用 st.columns 创建可点击的表格
+        # 表头
+        col1, col2, col3, col4 = st.columns([3, 1.5, 1.5, 1.5])
+        with col1:
+            st.markdown("**院校名称**")
+        with col2:
+            st.markdown("**院校代码**")
+        with col3:
+            st.markdown("**综合评价成绩**")
+        with col4:
+            st.markdown("**操作**")
+
+        st.divider()
+
+        # 数据行
+        for idx, row in df.iterrows():
+            col1, col2, col3, col4 = st.columns([3, 1.5, 1.5, 1.5])
+            with col1:
+                st.write(row["院校名称"])
+            with col2:
+                st.write(row["院校代码"])
+            with col3:
+                st.write(row["综合评价成绩"])
+            with col4:
+                # 按钮点击后直接跳转
+                if st.button(
+                    "查看详情",
+                    key=f"view_{row['院校代码']}_{idx}",
+                    type="primary",
+                    use_container_width=True,
+                ):
+                    st.session_state.detail_university_code = row["院校代码"]
+                    st.switch_page("app_pages/university_detail.py")
+
     else:
         st.info("该批次/科目类型下没有综合评价录取数据")
 

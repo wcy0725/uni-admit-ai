@@ -13,6 +13,13 @@ from models.enums import SubjectType
 
 def render() -> None:
     """渲染院校详情页面"""
+    # 从 URL 参数获取院校名称（综合评价页面跳转）
+    query_params = st.query_params
+    university_name = query_params.get("university", "")
+
+    # 从 session_state 获取要查看的院校代码（院校列表页面跳转）
+    target_code = st.session_state.get("detail_university_code")
+
     # 获取当前选择
     selection = get_current_selection()
     province = selection["province"]
@@ -30,8 +37,28 @@ def render() -> None:
         st.warning("未找到对应的录取数据")
         return
 
-    # 从 session_state 获取要查看的院校代码
-    target_code = st.session_state.get("detail_university_code")
+    # 如果有 URL 参数，根据校名查找院校代码（遍历所有批次）
+    if university_name:
+        import urllib.parse
+        university_name = urllib.parse.unquote(university_name)
+        # 查找匹配的院校
+        for uni in universities:
+            if uni.name == university_name:
+                target_code = uni.code
+                break
+
+        # 如果当前批次没找到，尝试所有批次
+        if not target_code:
+            from core.data_loader import get_available_batches
+            batches = get_available_batches(province, year)
+            for b in batches:
+                universities = load_admission_data(province, year, b)
+                for uni in universities:
+                    if uni.name == university_name:
+                        target_code = uni.code
+                        break
+                if target_code:
+                    break
 
     if not target_code:
         st.warning("请从院校列表页面选择要查看的院校")
@@ -39,12 +66,25 @@ def render() -> None:
             st.switch_page("app_pages/university_list.py")
         return
 
-    # 查找目标院校
+    # 查找目标院校（先尝试当前批次，再尝试所有批次）
     target_university = None
     for uni in universities:
         if uni.code == target_code:
             target_university = uni
             break
+
+    # 如果当前批次没找到，尝试所有批次
+    if not target_university:
+        from core.data_loader import get_available_batches
+        batches = get_available_batches(province, year)
+        for b in batches:
+            unis = load_admission_data(province, year, b)
+            for uni in unis:
+                if uni.code == target_code:
+                    target_university = uni
+                    break
+            if target_university:
+                break
 
     if not target_university:
         st.error("未找到该院校信息")

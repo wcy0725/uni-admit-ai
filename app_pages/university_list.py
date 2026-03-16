@@ -4,7 +4,6 @@
 """
 
 import streamlit as st
-import pandas as pd
 
 from components.selectors import get_current_selection
 from core.data_loader import load_admission_data
@@ -65,61 +64,54 @@ def render() -> None:
     end_idx = start_idx + page_size
     page_data = filtered[start_idx:end_idx]
 
-    # 准备表格数据
-    table_data = []
+    st.divider()
+
+    # 表头
+    col1, col2, col3, col4, col5, col6, col7 = st.columns([3, 1, 1, 1, 1, 1, 1])
+    with col1:
+        st.markdown("**院校名称**")
+    with col2:
+        st.markdown("**代码**")
+    with col3:
+        st.markdown("**物理分**")
+    with col4:
+        st.markdown("**物理位次**")
+    with col5:
+        st.markdown("**历史分**")
+    with col6:
+        st.markdown("**历史位次**")
+    with col7:
+        st.markdown("**操作**")
+
+    st.divider()
+
+    # 数据行
     for uni in page_data:
         physics_info = get_university_score_info(uni, SubjectType.PHYSICS)
         history_info = get_university_score_info(uni, SubjectType.HISTORY)
 
-        row = {
-            "院校名称": uni.name,
-            "院校代码": uni.code,
-            "官网": uni.official_website or "-",
-            "物理最低分": physics_info["min_score"] or "-",
-            "物理位次": physics_info["min_rank"] or "-",
-            "历史最低分": history_info["min_score"] or "-",
-            "历史位次": history_info["min_rank"] or "-",
-        }
-        table_data.append(row)
-
-    df = pd.DataFrame(table_data)
-
-    # 显示表格
-    st.dataframe(
-        df,
-        use_container_width=True,
-        hide_index=True,
-        column_config={
-            "院校名称": st.column_config.TextColumn("院校名称", width="large"),
-            "院校代码": st.column_config.TextColumn("院校代码", width="small"),
-            "官网": st.column_config.LinkColumn("官网", width="medium"),
-            "物理最低分": st.column_config.TextColumn("物理最低分", width="small"),
-            "物理位次": st.column_config.TextColumn("物理位次", width="small"),
-            "历史最低分": st.column_config.TextColumn("历史最低分", width="small"),
-            "历史位次": st.column_config.TextColumn("历史位次", width="small"),
-        },
-    )
-
-    st.divider()
-
-    # 跳转详情区域
-    st.markdown("### 查看院校详情")
-
-    col1, col2 = st.columns([3, 1])
-    with col1:
-        selected_uni_name = st.selectbox(
-            "选择院校",
-            options=[uni.name for uni in page_data],
-            key="university_selector",
-            label_visibility="collapsed",
-        )
-    with col2:
-        if st.button("查看详情", type="primary", use_container_width=True):
-            for uni in page_data:
-                if uni.name == selected_uni_name:
-                    st.session_state.detail_university_code = uni.code
-                    st.switch_page("app_pages/university_detail.py")
-                    break
+        col1, col2, col3, col4, col5, col6, col7 = st.columns([3, 1, 1, 1, 1, 1, 1])
+        with col1:
+            st.write(uni.name)
+        with col2:
+            st.write(uni.code)
+        with col3:
+            st.write(physics_info["min_score"] or "-")
+        with col4:
+            st.write(physics_info["min_rank"] or "-")
+        with col5:
+            st.write(history_info["min_score"] or "-")
+        with col6:
+            st.write(history_info["min_rank"] or "-")
+        with col7:
+            if st.button(
+                "查看",
+                key=f"view_list_{uni.code}",
+                type="primary",
+                use_container_width=True,
+            ):
+                st.session_state.detail_university_code = uni.code
+                st.switch_page("app_pages/university_detail.py")
 
 
 # 页面入口

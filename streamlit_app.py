@@ -43,6 +43,11 @@ def main() -> None:
             title="综合评价",
             icon=":material/stars:",
         ),
+        st.Page(
+            "app_pages/university_detail.py",
+            title="院校详情",
+            icon=":material/info:",
+        ),
     ]
 
     # 侧边栏导航和选择器

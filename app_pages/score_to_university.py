@@ -36,7 +36,7 @@ def render() -> None:
         st.warning("未找到对应的录取数据")
         return
 
-    st.subheader("分数筛选与院校推荐")
+    st.subheader("分数筛选与院校推荐")    
 
     # 从其他页面跳转来的参数
     nav_min = st.session_state.get("nav_score_min", None)
@@ -116,8 +116,6 @@ def render() -> None:
     # 显示统计
     st.write(f"共找到 **{len(filtered)}** 所符合条件的院校（显示前 {top_count} 所）")
 
-    st.divider()
-
     # 院校列表
     if filtered:
         # 准备表格数据
@@ -164,7 +162,7 @@ def render() -> None:
             on_select="rerun",
             selection_mode="single-row",
             key="score_university_df",
-            height=35 + 35 * len(display_df),  # 表头35px + 每行35px
+            height=40 + 35 * len(display_df),  # 表头35px + 每行35px
             column_config={
                 "院校名称": st.column_config.TextColumn("院校名称"),
                 "院校代码": st.column_config.TextColumn("院校代码", width="small"),
@@ -185,6 +183,12 @@ def render() -> None:
     else:
         st.info("没有找到符合条件的院校，请调整筛选条件")
 
+    # 如果是从位次查分数跳转来的，显示返回按钮
+    source_page = st.session_state.get("score_source_page")
+    if source_page == "rank_to_score":
+        if st.button("← 返回位次查分数", type="secondary"):
+            st.session_state.score_source_page = None
+            st.switch_page("app_pages/rank_to_score.py")
 
 # 页面入口
 if __name__ == "__main__":

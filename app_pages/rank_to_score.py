@@ -119,6 +119,7 @@ def render() -> None:
                         st.session_state.nav_score_min = r["min_score"]
                         st.session_state.nav_score_max = r["max_score"]
                         st.session_state.nav_target = "score_to_university"
+                        st.session_state.score_source_page = "rank_to_score"
                         st.switch_page("app_pages/score_to_university.py")
 
             with col2:
@@ -132,6 +133,7 @@ def render() -> None:
                         st.session_state.nav_score_min = r["min_score"]
                         st.session_state.nav_score_max = r["max_score"]
                         st.session_state.nav_target = "score_to_university"
+                        st.session_state.score_source_page = "rank_to_score"
                         st.switch_page("app_pages/score_to_university.py")
 
             with col3:
@@ -145,6 +147,7 @@ def render() -> None:
                         st.session_state.nav_score_min = r["min_score"]
                         st.session_state.nav_score_max = r["max_score"]
                         st.session_state.nav_target = "score_to_university"
+                        st.session_state.score_source_page = "rank_to_score"
                         st.switch_page("app_pages/score_to_university.py")
 
             # 图表展示

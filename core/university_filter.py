@@ -133,7 +133,7 @@ def get_university_score_info(
     Returns:
         {
             "min_score": 最低分数,
-            "min_rank": 最低位次,
+            "min_rank": 最低分数对应的位次,
             "records": 录取记录列表
         }
     """
@@ -150,18 +150,11 @@ def get_university_score_info(
 
         score = parse_score(record.min_score)
         if score:
+            # 找到更低的分数时，更新分数和对应的位次
             if min_score is None or score < min_score:
                 min_score = score
+                # 位次取该分数对应的位次
                 min_rank = parse_score(record.rank) if record.rank else None
-
-        # 获取位次
-        if record.rank:
-            try:
-                rank = int(record.rank)
-                if min_rank is None or rank < min_rank:
-                    min_rank = rank
-            except ValueError:
-                pass
 
     return {
         "min_score": min_score,

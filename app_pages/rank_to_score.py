@@ -36,7 +36,7 @@ def render() -> None:
     max_rank = int(rank_table["cumulative_rank"].max())
     min_rank = int(rank_table["cumulative_rank"].min())
 
-    col1, col2 = st.columns([2, 1])
+    col1, col2, col3 = st.columns([3, 1, 1])
     with col1:
         target_rank = st.number_input(
             "请输入位次",
@@ -48,7 +48,17 @@ def render() -> None:
         )
 
     with col2:
-        st.markdown("### ")  # 占位
+        st.markdown(
+            """
+            <style>
+            div.stButton > button {
+                margin-top: 10px;
+            }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+
         search_btn = st.button("查询", type="primary", use_container_width=True)
 
     # 查询结果

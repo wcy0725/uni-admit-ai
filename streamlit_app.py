@@ -15,42 +15,42 @@ def main() -> None:
         page_title="高考志愿填报助手",
         page_icon="🎓",
         layout="wide",
-        initial_sidebar_state="expanded",
+        initial_sidebar_state="auto",
     )
-
-    # iOS Safari 滚动修复
-    st.markdown(
-        """
-        <style>
-        /* 修复 iOS Safari 100vh 问题 */
-        html, body {
-            height: 100dvh !important;
-            height: -webkit-fill-available !important;
-        }
-
-        /* 启用 iOS 惯性滚动 */
-        * {
-            -webkit-overflow-scrolling: touch;
-        }
-
-        /* 确保主内容区域可滚动 */
-        .main .block-container {
-            overflow-y: auto !important;
-            height: calc(100dvh - 3.5rem) !important;
-        }
-
-        /* 侧边栏滚动修复 */
-        section[data-testid="stSidebar"] > div {
-            height: 100dvh !important;
-            overflow-y: auto !important;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
+    
     # 初始化全局状态
     init_session_state()
+
+    # ====== 新增：修复 iOS 纵向滚动失效的全局 CSS ======
+    st.markdown("""
+        <style>
+            /* 1. 释放 html 和 body 的硬性高度限制 */
+            html, body {
+                height: auto !important;
+                overflow-y: visible !important;
+                -webkit-overflow-scrolling: touch !important;
+            }
+
+            /* 2. 精确命中 Streamlit 真正的最外层视图容器 */
+            [data-testid="stAppViewContainer"] {
+                overflow-y: scroll !important;  /* 强制开启滚动 */
+                height: 100dvh !important;      /* 使用动态视口高度，完美适配 iOS 底部地址栏伸缩 */
+                -webkit-overflow-scrolling: touch !important; /* 开启 iOS 惯性滚动 */
+            }
+
+            /* 3. 确保内容区块不被绝对定位锁死，并留足底部空间 */
+            [data-testid="stAppViewBlockContainer"] {
+                padding-bottom: 15vh !important; /* 用 vh 留白比 rem 更稳定 */
+                overflow-y: visible !important;
+            }
+            
+            /* 4. 防止侧边栏在移动端关闭后，body 依然残留 overflow: hidden */
+            [data-testid="stSidebar"] {
+                -webkit-overflow-scrolling: touch !important;
+            }
+        </style>
+    """, unsafe_allow_html=True)
+    # ===================================================
 
     # 定义页面导航
     pages = [

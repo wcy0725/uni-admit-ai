@@ -59,7 +59,7 @@ def render() -> None:
             unsafe_allow_html=True
         )
 
-        search_btn = st.button("查询", type="primary", use_container_width=True)
+        search_btn = st.button("查询", type="primary", width="stretch")
 
     # 查询结果
     if search_btn or target_rank:

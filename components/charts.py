@@ -159,6 +159,6 @@ def display_chart(figure: Optional[go.Figure]) -> None:
         figure: Plotly Figure 对象
     """
     if figure:
-        st.plotly_chart(figure, use_container_width=True)
+        st.plotly_chart(figure, width="stretch")
     else:
         st.info("暂无数据可显示")

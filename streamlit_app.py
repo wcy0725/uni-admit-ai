@@ -18,6 +18,37 @@ def main() -> None:
         initial_sidebar_state="expanded",
     )
 
+    # iOS Safari 滚动修复
+    st.markdown(
+        """
+        <style>
+        /* 修复 iOS Safari 100vh 问题 */
+        html, body {
+            height: 100dvh !important;
+            height: -webkit-fill-available !important;
+        }
+
+        /* 启用 iOS 惯性滚动 */
+        * {
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* 确保主内容区域可滚动 */
+        .main .block-container {
+            overflow-y: auto !important;
+            height: calc(100dvh - 3.5rem) !important;
+        }
+
+        /* 侧边栏滚动修复 */
+        section[data-testid="stSidebar"] > div {
+            height: 100dvh !important;
+            overflow-y: auto !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     # 初始化全局状态
     init_session_state()
 
